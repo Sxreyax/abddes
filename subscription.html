@@ -1,0 +1,247 @@
+<span style="font-family: verdana; color: black;"><style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ 
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+   
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+  
+  .container {
+  text-align: center;
+}
+
+.button {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.button-2 {
+  color: #fff;
+  border: 3px solid #1b68f7;
+  background-image: -webkit-linear-gradient(30deg, #1b68f7 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #1b68f7 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: #1b68f7;
+}
+
+</style></span><div style="text-align: justify;"><span style="font-family: verdana; color: black;"><br /></span></div>
+<span style="font-family: verdana; color: black;"><body>
+
+
+
+<!-- Trigger/Open The Modal -->
+   <div class="container">
+  <button class="button button-2" id="myBtn"><h3>SUBSCRIBE</h3></button>
+  </div>
+<!-- The Modal -->
+<div class="modal" id="myModal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+     <table>
+       <tr>
+         
+      <td><img height="50px" src="https://lh3.googleusercontent.com/M12_cT0ZTH6Mvm2QoWe_6ML9_AEY57d6OCIFvhCo8scwcFT-hk3QNZ9Nv-tebdx31vFDRkNmSqWmBYc49WnqcbPEaJD37BZN0F1wXUENYP0E9AMoYQVMBJJYHIHtFecTAHEeD2ePbA=w1920-h1080" width="100px" /></td>
+         
+         <td>  <h4>&nbsp;SUBSCRIBE US</h4></td>
+       </tr>
+      </table>
+       </div>
+    <div class="modal-body">
+    <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+  <div class="w3-content" style="max-width: 600px;">
+   
+    <h4 class="w3-center"><b>Please Enter Your Details To Get Subscribe !!</b></h4>
+ 
+    <script type="text/javascript">var submitted=false;</script>
+    
+    <!--Update the URL for thank you page on form submit -->
+    <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted) {window.location='https://www.techturtles47.com/';}" style="display: none;"></iframe> 
+   
+    <!-- Update the Google forms URL in action-->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfk-lOqbg4nXuk7LPjkilP-VEtIp5ueOWZ2ojLL3aRZI_7SKw/formResponse" method="post" onsubmit="return validateForm(); " target="hidden_iframe">
+
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" id="name" name="entry.196894471" placeholder="Name" required="" type="text" />
+      </div>
+      <br />
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" id="email" name="entry.1061038396" placeholder="Email" required="" type="text" />
+      </div>     
+      <br />
+      <div class="w3-section">
+        <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
+      </div>
+    </form>
+        
+</div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <h3></h3>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+		function validateName() {
+            var name = document.getElementById('name').value;
+            if(name.length == 0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+              alert("Please enter your correct name") ;//Validation Message
+              return false;
+            }
+            return true;
+          }  
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+            alert("Please enter a correct email address") ;//Validation Message
+            return false;
+
+          }
+
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            submitted=true;
+            return true;
+          }
+        }
+</script>
+
+</body></span><div style="text-align: justify;"><span style="font-family: verdana; color: black;"><br /></span></div>
